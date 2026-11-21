@@ -209,3 +209,11 @@ input:focus,select:focus,textarea:focus{outline:2px solid #a1fa6c88;outline-offs
 .media-switch-btn.active{background:#7cf34d;color:#102016;box-shadow:0 2px 10px #67f04435}
 .media-pair .media-tile img{width:100%;height:100%;object-fit:contain}
 .media-pair[data-active-view] [data-media-panel]{display:none}.media-pair[data-active-view="execucao"] [data-media-panel="execucao"],.media-pair[data-active-view="anatomia"] [data-media-panel="anatomia"]{display:block}.media-pair[data-active-view]{display:block}.media-pair[data-active-view] [data-media-panel] .media-tile{min-height:240px}
+
+/* Fallback local de imagens indisponíveis — nunca mostrar ícone quebrado. */
+.jsr-media-fallback{display:flex;width:100%;height:100%;min-height:56px;flex-direction:column;align-items:center;justify-content:center;gap:7px;text-align:center;padding:9px;background:radial-gradient(circle at 30% 15%,#345d37,#15251a 78%);color:#c8ffac;overflow:hidden}
+.jsr-media-fallback small{font-size:8px;letter-spacing:1.2px;font-weight:850;color:#9ef078}
+.jsr-media-fallback strong{font-size:clamp(10px,2.5vw,15px);line-height:1.2;overflow-wrap:anywhere}
+.exercise-symbol .jsr-media-fallback{min-height:100%;padding:4px;gap:3px}
+.exercise-symbol .jsr-media-fallback small{font-size:6px;letter-spacing:.4px}
+.exercise-symbol .jsr-media-fallback strong{font-size:9px}
