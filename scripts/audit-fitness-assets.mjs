@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 const root='assets/jsr-fitness-premium';
 const dirs=['01_peito','02_costas','03_ombros','04_bracos','05_membros_inferiores','06_abdomen_core'];
-const catalog=path.join(root,'catalogo.json');
+const catalog=path.join(root,'research','catalogo-58.json');
 const report={timestamp:new Date().toISOString(),catalogFound:fs.existsSync(catalog),total:0,filesFound:0,missing:[],errors:[]};
 if(fs.existsSync(catalog)){
   try{
@@ -17,7 +17,9 @@ if(fs.existsSync(catalog)){
       if(!Number.isInteger(id)||id<1||id>58||ids.has(id))report.errors.push('ID inválido ou repetido: '+id);
       ids.add(id);
       for(const kind of ['execucao','anatomia']){
-        const file=e.imagens?.[kind]??e[kind]??e['imagem_'+kind];
+        const folder=({Peito:'01_peito',Costas:'02_costas',Ombros:'03_ombros',Braços:'04_bracos','Membros inferiores':'05_membros_inferiores','Abdômen/Core':'06_abdomen_core'})[e.categoria];
+        const slug=e.nome.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+        const file=e.imagens?.[kind]??e[kind]??e['imagem_'+kind]??(folder?`imagens/${folder}/${String(id).padStart(3,'0')}_${slug}_${kind}.webp`:null);
         if(!file){report.missing.push({id,kind,reason:'sem caminho'});continue;}
         const full=path.resolve(root,file);
         const allowed=path.resolve(root)+path.sep;
