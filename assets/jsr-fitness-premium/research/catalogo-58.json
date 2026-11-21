@@ -1,7 +1,7 @@
 {
-  "versao": "0.2",
+  "versao": "0.3",
   "data": "2026-11-21",
-  "observacao": "58 IDs oficiais; 3 fichas preliminares, 55 pendentes. Sem validação profissional.",
+  "observacao": "58 fichas com rascunhos: 3 referências preliminares; 55 mapeamentos anatômicos gerais ainda não validados individualmente. Não confundir com 58 pesquisas científicas.",
   "exercicios": [
     {
       "id": 1,
@@ -43,14 +43,31 @@
       "id": 2,
       "nome": "Supino inclinado",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior (porção clavicular)"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "deltoide anterior"
+      ],
+      "equipamento": "Banco inclinado e resistência",
+      "movimento": "Empurrar a resistência em banco inclinado, com extensão dos cotovelos e movimento dos ombros.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 3,
@@ -87,14 +104,33 @@
       "id": 4,
       "nome": "Remada baixa",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso",
+        "romboides",
+        "trapézio médio"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "deltoide posterior"
+      ],
+      "equipamento": "Barra, halter ou máquina conforme variação",
+      "movimento": "Puxar a resistência na direção do tronco, combinando movimento dos ombros, escápulas e cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 5,
@@ -132,690 +168,1582 @@
       "id": 6,
       "nome": "Leg press (genérico)",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno"
+      ],
+      "equipamento": "Máquina leg press conforme variação",
+      "movimento": "Empurrar a plataforma, estendendo quadril e joelhos de maneira controlada.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 7,
       "nome": "Rosca martelo",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "braquiorradial",
+        "braquial"
+      ],
+      "auxiliares": [
+        "bíceps braquial"
+      ],
+      "equipamento": "Halteres",
+      "movimento": "Flexionar os cotovelos com pegada neutra.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 8,
       "nome": "Tríceps na polia",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "tríceps braquial"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Polia, halter ou barra conforme variação",
+      "movimento": "Estender os cotovelos contra resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 9,
       "nome": "Desenvolvimento com halteres",
       "categoria": "Ombros",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "deltoide anterior",
+        "deltoide médio"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "trapézio superior"
+      ],
+      "equipamento": "Halteres",
+      "movimento": "Elevar a resistência acima da cabeça com movimento dos ombros e extensão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 10,
       "nome": "Prancha",
       "categoria": "Abdômen/Core",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "reto abdominal",
+        "transverso do abdômen",
+        "oblíquos"
+      ],
+      "auxiliares": [
+        "glúteos",
+        "estabilizadores do ombro"
+      ],
+      "equipamento": "Peso corporal",
+      "movimento": "Manter o tronco estável em apoio, resistindo à extensão lombar.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 11,
       "nome": "Leg press 45°",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno"
+      ],
+      "equipamento": "Máquina leg press conforme variação",
+      "movimento": "Empurrar a plataforma, estendendo quadril e joelhos de maneira controlada.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 12,
       "nome": "Leg press horizontal",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno"
+      ],
+      "equipamento": "Máquina leg press conforme variação",
+      "movimento": "Empurrar a plataforma, estendendo quadril e joelhos de maneira controlada.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 13,
       "nome": "Leg press vertical",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno"
+      ],
+      "equipamento": "Máquina leg press conforme variação",
+      "movimento": "Empurrar a plataforma, estendendo quadril e joelhos de maneira controlada.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 14,
       "nome": "Elevação lateral com halteres",
       "categoria": "Ombros",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "deltoide médio"
+      ],
+      "auxiliares": [
+        "supraespinal",
+        "trapézio"
+      ],
+      "equipamento": "Halteres",
+      "movimento": "Elevar os braços lateralmente contra a resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 15,
       "nome": "Rosca direta com barra",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "bíceps braquial",
+        "braquial"
+      ],
+      "auxiliares": [
+        "braquiorradial"
+      ],
+      "equipamento": "Barra, halteres ou máquina conforme variação",
+      "movimento": "Flexionar os cotovelos contra resistência, mantendo o braço relativamente estável.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 16,
       "nome": "Tríceps francês com halter",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "tríceps braquial"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Polia, halter ou barra conforme variação",
+      "movimento": "Estender os cotovelos contra resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 17,
       "nome": "Remada unilateral com halter",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso",
+        "romboides",
+        "trapézio médio"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "deltoide posterior"
+      ],
+      "equipamento": "Barra, halter ou máquina conforme variação",
+      "movimento": "Puxar a resistência na direção do tronco, combinando movimento dos ombros, escápulas e cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 18,
       "nome": "Cadeira extensora",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Cadeira extensora",
+      "movimento": "Estender os joelhos contra a resistência da máquina.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 19,
       "nome": "Mesa flexora",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "isquiotibiais"
+      ],
+      "auxiliares": [
+        "gastrocnêmio"
+      ],
+      "equipamento": "Máquina flexora",
+      "movimento": "Flexionar os joelhos contra a resistência da máquina.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 20,
       "nome": "Supino reto com barra",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "deltoide anterior"
+      ],
+      "equipamento": "Barra e banco horizontal",
+      "movimento": "Empurrar a resistência à frente do tronco, combinando movimento do ombro e extensão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 21,
       "nome": "Supino reto com halteres",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "deltoide anterior"
+      ],
+      "equipamento": "Halteres e banco horizontal",
+      "movimento": "Empurrar a resistência à frente do tronco, combinando movimento do ombro e extensão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 22,
       "nome": "Supino inclinado com barra",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior (porção clavicular)"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "deltoide anterior"
+      ],
+      "equipamento": "Banco inclinado e resistência",
+      "movimento": "Empurrar a resistência em banco inclinado, com extensão dos cotovelos e movimento dos ombros.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 23,
       "nome": "Crucifixo com halteres",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior"
+      ],
+      "auxiliares": [
+        "deltoide anterior"
+      ],
+      "equipamento": "Halteres, cabos ou máquina conforme variação",
+      "movimento": "Aproximar os braços à frente do tronco por adução horizontal do ombro.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 24,
       "nome": "Crossover na polia",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior"
+      ],
+      "auxiliares": [
+        "deltoide anterior"
+      ],
+      "equipamento": "Halteres, cabos ou máquina conforme variação",
+      "movimento": "Aproximar os braços à frente do tronco por adução horizontal do ombro.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 25,
       "nome": "Peck deck (voador)",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior"
+      ],
+      "auxiliares": [
+        "deltoide anterior"
+      ],
+      "equipamento": "Halteres, cabos ou máquina conforme variação",
+      "movimento": "Aproximar os braços à frente do tronco por adução horizontal do ombro.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 26,
       "nome": "Flexão de braços",
       "categoria": "Peito",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "peitoral maior"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "deltoide anterior"
+      ],
+      "equipamento": "Peso corporal",
+      "movimento": "Empurrar a resistência à frente do tronco, combinando movimento do ombro e extensão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 27,
       "nome": "Puxada frontal pegada aberta",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "braquial",
+        "redondo maior"
+      ],
+      "equipamento": "Polia alta ou barra fixa conforme variação",
+      "movimento": "Trazer a resistência em direção ao tronco, com movimento dos ombros e flexão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 28,
       "nome": "Puxada frontal pegada neutra",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "braquial",
+        "redondo maior"
+      ],
+      "equipamento": "Polia alta ou barra fixa conforme variação",
+      "movimento": "Trazer a resistência em direção ao tronco, com movimento dos ombros e flexão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 29,
       "nome": "Remada curvada com barra",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso",
+        "romboides",
+        "trapézio médio"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "deltoide posterior"
+      ],
+      "equipamento": "Barra, halter ou máquina conforme variação",
+      "movimento": "Puxar a resistência na direção do tronco, combinando movimento dos ombros, escápulas e cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 30,
       "nome": "Remada articulada",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso",
+        "romboides",
+        "trapézio médio"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "deltoide posterior"
+      ],
+      "equipamento": "Barra, halter ou máquina conforme variação",
+      "movimento": "Puxar a resistência na direção do tronco, combinando movimento dos ombros, escápulas e cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 31,
       "nome": "Barra fixa",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "braquial",
+        "redondo maior"
+      ],
+      "equipamento": "Barra fixa",
+      "movimento": "Trazer a resistência em direção ao tronco, com movimento dos ombros e flexão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 32,
       "nome": "Pullover na polia",
       "categoria": "Costas",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "latíssimo do dorso"
+      ],
+      "auxiliares": [
+        "bíceps braquial",
+        "braquial",
+        "redondo maior"
+      ],
+      "equipamento": "Polia alta",
+      "movimento": "Trazer a resistência em direção ao tronco, com movimento dos ombros e flexão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 33,
       "nome": "Agachamento no Smith",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno",
+        "estabilizadores do tronco"
+      ],
+      "equipamento": "Máquina Smith",
+      "movimento": "Flexionar quadril e joelhos na descida e estendê-los na subida.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 34,
       "nome": "Agachamento goblet",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno",
+        "estabilizadores do tronco"
+      ],
+      "equipamento": "Halter",
+      "movimento": "Flexionar quadril e joelhos na descida e estendê-los na subida.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 35,
       "nome": "Agachamento hack",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutor magno",
+        "estabilizadores do tronco"
+      ],
+      "equipamento": "Máquina hack",
+      "movimento": "Flexionar quadril e joelhos na descida e estendê-los na subida.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 36,
       "nome": "Afundo com halteres",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "quadríceps",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "adutores",
+        "estabilizadores do quadril"
+      ],
+      "equipamento": "Halteres",
+      "movimento": "Flexionar quadril e joelhos em base dividida e retornar à posição inicial.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 37,
       "nome": "Cadeira flexora",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "isquiotibiais"
+      ],
+      "auxiliares": [
+        "gastrocnêmio"
+      ],
+      "equipamento": "Máquina flexora",
+      "movimento": "Flexionar os joelhos contra a resistência da máquina.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 38,
       "nome": "Cadeira adutora",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "adutores do quadril"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Cadeira adutora",
+      "movimento": "Aproximar as coxas contra a resistência da máquina.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 39,
       "nome": "Cadeira abdutora",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "glúteo médio",
+        "glúteo mínimo"
+      ],
+      "auxiliares": [
+        "tensor da fáscia lata"
+      ],
+      "equipamento": "Cadeira abdutora",
+      "movimento": "Afastar as coxas contra a resistência da máquina.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 40,
       "nome": "Elevação pélvica",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "isquiotibiais",
+        "adutor magno"
+      ],
+      "equipamento": "Banco e resistência",
+      "movimento": "Estender o quadril elevando a pelve contra a resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 41,
       "nome": "Levantamento terra romeno",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "isquiotibiais",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "eretores da espinha"
+      ],
+      "equipamento": "Barra ou halteres",
+      "movimento": "Realizar movimento predominante no quadril, mantendo a resistência próxima ao corpo.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 42,
       "nome": "Panturrilha em pé",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "gastrocnêmio",
+        "sóleo"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Máquina ou peso corporal",
+      "movimento": "Realizar flexão plantar do tornozelo contra resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 43,
       "nome": "Panturrilha sentado",
       "categoria": "Membros inferiores",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "sóleo"
+      ],
+      "auxiliares": [
+        "gastrocnêmio"
+      ],
+      "equipamento": "Máquina de panturrilha sentado",
+      "movimento": "Realizar flexão plantar com joelhos flexionados.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 44,
       "nome": "Desenvolvimento na máquina",
       "categoria": "Ombros",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "deltoide anterior",
+        "deltoide médio"
+      ],
+      "auxiliares": [
+        "tríceps braquial",
+        "trapézio superior"
+      ],
+      "equipamento": "Máquina de desenvolvimento",
+      "movimento": "Elevar a resistência acima da cabeça com movimento dos ombros e extensão dos cotovelos.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 45,
       "nome": "Elevação frontal com halteres",
       "categoria": "Ombros",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "deltoide anterior"
+      ],
+      "auxiliares": [
+        "peitoral maior (porção clavicular)"
+      ],
+      "equipamento": "Halteres",
+      "movimento": "Elevar os braços à frente do tronco contra a resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 46,
       "nome": "Crucifixo inverso",
       "categoria": "Ombros",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "deltoide posterior"
+      ],
+      "auxiliares": [
+        "romboides",
+        "trapézio médio"
+      ],
+      "equipamento": "Halteres ou máquina",
+      "movimento": "Afastar os braços para trás, em abdução horizontal do ombro.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 47,
       "nome": "Face pull",
       "categoria": "Ombros",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "deltoide posterior",
+        "trapézio médio",
+        "romboides"
+      ],
+      "auxiliares": [
+        "rotadores externos do ombro"
+      ],
+      "equipamento": "Polia alta com corda",
+      "movimento": "Puxar a corda em direção à face, combinando retração escapular e movimento dos ombros.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 48,
       "nome": "Rosca alternada com halteres",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "bíceps braquial",
+        "braquial"
+      ],
+      "auxiliares": [
+        "braquiorradial"
+      ],
+      "equipamento": "Barra, halteres ou máquina conforme variação",
+      "movimento": "Flexionar os cotovelos contra resistência, mantendo o braço relativamente estável.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 49,
       "nome": "Rosca Scott",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "bíceps braquial",
+        "braquial"
+      ],
+      "auxiliares": [
+        "braquiorradial"
+      ],
+      "equipamento": "Barra, halteres ou máquina conforme variação",
+      "movimento": "Flexionar os cotovelos contra resistência, mantendo o braço relativamente estável.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 50,
       "nome": "Rosca concentrada",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "bíceps braquial",
+        "braquial"
+      ],
+      "auxiliares": [
+        "braquiorradial"
+      ],
+      "equipamento": "Barra, halteres ou máquina conforme variação",
+      "movimento": "Flexionar os cotovelos contra resistência, mantendo o braço relativamente estável.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 51,
       "nome": "Tríceps corda",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "tríceps braquial"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Polia, halter ou barra conforme variação",
+      "movimento": "Estender os cotovelos contra resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 52,
       "nome": "Tríceps testa",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "tríceps braquial"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Polia, halter ou barra conforme variação",
+      "movimento": "Estender os cotovelos contra resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 53,
       "nome": "Tríceps coice",
       "categoria": "Braços",
-      "status": "pesquisa_pendente",
-      "principais": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "tríceps braquial"
+      ],
       "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "equipamento": "Polia, halter ou barra conforme variação",
+      "movimento": "Estender os cotovelos contra resistência.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 54,
       "nome": "Abdominal crunch",
       "categoria": "Abdômen/Core",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "reto abdominal"
+      ],
+      "auxiliares": [
+        "oblíquos"
+      ],
+      "equipamento": "Peso corporal",
+      "movimento": "Flexionar o tronco aproximando a caixa torácica da pelve.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 55,
       "nome": "Abdominal na máquina",
       "categoria": "Abdômen/Core",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "reto abdominal"
+      ],
+      "auxiliares": [
+        "oblíquos"
+      ],
+      "equipamento": "Máquina abdominal",
+      "movimento": "Flexionar o tronco aproximando a caixa torácica da pelve.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 56,
       "nome": "Prancha lateral",
       "categoria": "Abdômen/Core",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "oblíquos",
+        "quadrado lombar"
+      ],
+      "auxiliares": [
+        "glúteo médio",
+        "estabilizadores do ombro"
+      ],
+      "equipamento": "Peso corporal",
+      "movimento": "Sustentar o corpo lateralmente, resistindo à inclinação do tronco.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 57,
       "nome": "Dead bug",
       "categoria": "Abdômen/Core",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "transverso do abdômen",
+        "reto abdominal",
+        "oblíquos"
+      ],
+      "auxiliares": [
+        "flexores do quadril"
+      ],
+      "equipamento": "Peso corporal",
+      "movimento": "Mover braços e pernas alternadamente enquanto mantém a região lombopélvica estável.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     },
     {
       "id": 58,
       "nome": "Bird dog",
       "categoria": "Abdômen/Core",
-      "status": "pesquisa_pendente",
-      "principais": [],
-      "auxiliares": [],
-      "equipamento": null,
-      "movimento": null,
-      "fontes": [],
+      "status": "rascunho_anatomico",
+      "principais": [
+        "eretores da espinha",
+        "multífidos",
+        "glúteo máximo"
+      ],
+      "auxiliares": [
+        "músculos abdominais",
+        "estabilizadores do ombro"
+      ],
+      "equipamento": "Peso corporal",
+      "movimento": "Estender braço e perna opostos em quatro apoios, resistindo à rotação do tronco.",
+      "fontes": [
+        {
+          "tipo": "fundamento_anatomico_geral",
+          "titulo": "OpenStax — The Muscular System (capítulo 11)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction"
+        },
+        {
+          "tipo": "biblioteca_geral_nao_validada_por_exercicio",
+          "titulo": "ACE — Exercise Library",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/"
+        }
+      ],
       "videos": [],
-      "revisao_profissional": false
+      "revisao_profissional": false,
+      "observacoes": "Mapeamento anatômico inicial baseado em princípios gerais, NÃO pesquisa individual validada. Conferir a variação exata, músculos e execução com fonte específica e profissional."
     }
   ]
 }
