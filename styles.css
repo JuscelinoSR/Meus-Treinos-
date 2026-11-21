@@ -36,3 +36,15 @@
 
 /* Descanso automático durante o treino */
 #rest-card{scroll-margin-top:18px}#rest-card.rest-running{border-color:#9ae0ad;box-shadow:0 0 0 1px #537f60}#rest-card .timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:clamp(36px,10vw,58px);text-align:center;padding:10px 0}#rest-status{text-align:center}
+
+/* Mídia piloto: foto de referência + esquema muscular */
+.exercise-symbol{overflow:hidden}.exercise-symbol img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.media-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 18px}
+.media-pair>div{display:flex;flex-direction:column;gap:5px;min-width:0}
+.media-tile{height:190px;display:grid;place-items:center;background:#142b20;border:1px solid #36513e;border-radius:12px;overflow:hidden}
+.media-tile img{width:100%;height:100%;object-fit:contain}
+.media-pair strong{font-size:13px}.media-pair small{font-size:11px;line-height:1.4;color:#b4c8b9;overflow-wrap:anywhere}
+.media-pair a{color:#b5eac1;text-decoration:underline}
+.media-placeholder{display:grid;justify-items:center;gap:8px;color:#c0d2c6;font-size:30px;padding:12px;text-align:center}
+.media-placeholder small{font-size:11px}
+@media(max-width:360px){.media-tile{height:145px}}
