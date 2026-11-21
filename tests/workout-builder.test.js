@@ -1,0 +1,11 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {createWorkout,updateWorkout,cloneWorkoutSnapshot,suggestWorkout} from "../src/workout-builder/core.js";
+const ids=[1,2,3,5,10];
+const exercise={exerciseId:1,sets:3,repsMin:8,repsMax:12,restSeconds:90,loadKg:30};
+test("cria ficha válida com exercício do catálogo",()=>{const w=createWorkout({id:"a",name:"Treino A",exercises:[exercise]},ids);assert.equal(w.exercises[0].loadKg,30)});
+test("rejeita exercício desconhecido",()=>assert.throws(()=>createWorkout({id:"a",name:"A",exercises:[{...exercise,exerciseId:999}]},ids),/fora do catálogo/));
+test("rejeita intervalos de repetição inconsistentes",()=>assert.throws(()=>createWorkout({id:"a",name:"A",exercises:[{...exercise,repsMin:15,repsMax:8}]},ids),/inválid/));
+test("edição mantém identidade",()=>{const a=createWorkout({id:"a",name:"A",exercises:[exercise]},ids);assert.equal(updateWorkout(a,{name:"Novo"},ids).id,"a");assert.throws(()=>updateWorkout(a,{id:"b"},ids),/ID/)});
+test("snapshot histórico não muda com edição",()=>{const a=createWorkout({id:"a",name:"A",exercises:[exercise]},ids);const snap=cloneWorkoutSnapshot(a);a.exercises[0].loadKg=100;assert.equal(snap.exercises[0].loadKg,30)});
+test("sugestão é editável e não é prescrição clínica",()=>{const c=[{id:1,categoria:"Peito"},{id:3,categoria:"Costas"},{id:5,categoria:"Membros inferiores"}];const drafts=suggestWorkout({goal:"hipertrofia",days:3},c);assert.equal(drafts.length,3);assert.equal(drafts[0].provisional,true);assert.equal(drafts[0].exercises[0].loadKg,null)});
