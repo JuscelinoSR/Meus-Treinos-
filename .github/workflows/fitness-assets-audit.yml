@@ -1,0 +1,28 @@
+name: JSR Fitness - Auditoria de imagens
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/jsr-fitness-premium/**'
+      - 'scripts/audit-fitness-assets.mjs'
+      - '.github/workflows/fitness-assets-audit.yml'
+  schedule:
+    - cron: '0 12 * * 1'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Auditar catálogo e imagens
+        run: node scripts/audit-fitness-assets.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fitness-assets-audit
+          path: reports/fitness-assets-audit.json
+          retention-days: 30
