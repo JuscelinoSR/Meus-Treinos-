@@ -1,3 +1,4 @@
+import {premiumAssets} from "./exercise-assets.js";
 // Ilustração muscular vetorial autoral: representação educativa, não atlas clínico.
 // Fotografias: Wikimedia Commons, autores e licenças informados individualmente.
 const photos={
@@ -46,7 +47,8 @@ return "data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg);
 }
 export function exerciseMedia(e){
 const photo=photos[e.name]||null,group=e.group||"Core";
-return {photoUrl:photo?"https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(photo.file)+"?width=420":null,
+const premium=premiumAssets[e.name]||null;
+return {premiumPhotoUrl:premium?.execucao||null,premiumAnatomyUrl:premium?.anatomia||null,photoUrl:photo?"https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(photo.file)+"?width=420":null,
 sourceUrl:photo?"https://commons.wikimedia.org/wiki/File:"+encodeURIComponent(photo.file.replace(/ /g,"_")):null,
 credit:photo?photo.author+" · "+photo.license:null,anatomyUrl:anatomy(group),group,front:group!=="Costas"};
 }
