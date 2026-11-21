@@ -146,3 +146,36 @@ input:focus,select:focus,textarea:focus{outline:2px solid #a1fa6c88;outline-offs
 .media-coming span{font-size:11px;font-weight:850;letter-spacing:1.5px;color:#c2f4a4}
 .media-coming small{font-size:11px;color:#9eafa1}
 .trainer-exercise-visual .exercise-symbol img,.trainer-preview-item .exercise-symbol img{object-fit:cover}
+
+/* JSR Studio 2.0 — composição editorial e prescrição mobile */
+.studio-section-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:24px 0 12px}
+.studio-section-title strong{font-size:18px;letter-spacing:-.4px}
+.studio-section-title span{font-size:12px;color:#a7b8aa}
+#sheet-form>label:first-child{margin:18px 0 8px}
+#sheet-form>label:first-child input{font-size:17px;font-weight:650;padding:16px}
+#exercise-fields{display:grid;gap:18px}
+.studio-exercise{background:linear-gradient(150deg,#19251c,#0e1711 78%);border:1px solid #36533b;border-radius:24px;overflow:hidden;box-shadow:0 18px 36px #0005}
+.studio-hero{position:relative;display:grid;grid-template-columns:116px minmax(0,1fr);gap:15px;padding:14px;background:radial-gradient(circle at 15% 30%,#344f35,#19251c 55%,#111a14);min-height:145px}
+.studio-photo{width:116px;height:136px;border:1px solid #4c674f;border-radius:17px;overflow:hidden;display:grid;place-items:center;background:#111d15;font-size:38px}
+.studio-photo img,.studio-photo .exercise-symbol,.studio-photo .exercise-symbol img{width:100%;height:100%;object-fit:cover;display:block;border:0;border-radius:0}
+.studio-hero-copy{min-width:0;align-self:center;padding-right:18px}
+.studio-kicker{font-size:10px;letter-spacing:1.6px;color:#b7fa92;font-weight:800}
+.studio-exercise-name{font-size:clamp(18px,4.8vw,23px);line-height:1.13;letter-spacing:-.6px;margin:9px 0 12px;overflow-wrap:anywhere}
+.studio-muscle-label{display:inline-flex;align-items:center;border-radius:30px;background:#314b31;border:1px solid #567b4c;color:#c6ffab;font-size:12px;font-weight:750;padding:5px 10px}
+.studio-secondary{color:#afc0b1;font-size:11px;line-height:1.4;margin:9px 0 0}
+.studio-remove{position:absolute;right:12px;top:12px;border:1px solid #63453f;border-radius:50%;width:29px;height:29px;background:#382623;color:#ffc5bc;font-size:15px;display:grid;place-items:center}
+.studio-body{padding:16px}
+.studio-name-field{font-size:12px;font-weight:700;color:#a7bba9}
+.studio-name-field input{margin-top:3px;font-size:15px;font-weight:600}
+.studio-prescription{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:15px}
+.studio-prescription label{font-size:11px;gap:7px;color:#b2c3b4;white-space:nowrap}
+.studio-prescription input{padding:12px 4px;text-align:center;font-size:17px;font-weight:750;border-radius:12px;font-variant-numeric:tabular-nums}
+.studio-notes{margin-top:15px;border-top:1px solid #2e4132;padding-top:12px}
+.studio-notes summary{list-style:none;cursor:pointer;color:#b9e3ba;font-size:13px;font-weight:650;display:flex;justify-content:space-between}
+.studio-notes summary::-webkit-details-marker{display:none}
+.studio-notes[open] summary span{transform:rotate(180deg)}
+.studio-note-input{margin-top:13px}
+.studio-note-input textarea{min-height:86px;resize:vertical}
+#sheet-form>.primary[type=submit]{position:sticky;bottom:calc(79px + env(safe-area-inset-bottom));z-index:5;box-shadow:0 8px 26px #000a;border:2px solid #19391d;padding:16px}
+@media(max-width:420px){.studio-prescription{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.studio-prescription label{font-size:12px}.studio-prescription input{padding:13px 8px}.studio-hero{grid-template-columns:100px minmax(0,1fr);gap:12px;min-height:132px}.studio-photo{width:100px;height:120px}.studio-body{padding:14px}}
+@media(max-width:340px){.studio-hero{grid-template-columns:82px minmax(0,1fr)}.studio-photo{width:82px;height:105px}.studio-exercise-name{font-size:17px}}
