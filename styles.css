@@ -192,3 +192,13 @@ input:focus,select:focus,textarea:focus{outline:2px solid #a1fa6c88;outline-offs
 .muscle-info-panel small{font-size:12px;color:#c0cec1}
 .muscle-info-kicker{font-size:10px;letter-spacing:1.4px;color:#8ccfa1}
 .workout-muscle-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;font-size:13px;font-weight:800;color:#b9f5a0;text-align:center;padding:8px;background:radial-gradient(circle,#345b3d,#12231a)}
+
+/* Curadoria do agente: conteúdo educacional preliminar */
+.research-card{margin:16px 0;padding:16px;background:linear-gradient(145deg,#1a2a20,#111c16);border:1px solid #3b5a40;border-radius:17px}
+.research-card h3{font-size:16px;margin:14px 0 8px}
+.research-card p{font-size:13px;line-height:1.55}
+.research-status{display:inline-flex;padding:7px 10px;border:1px solid #6d7844;border-radius:20px;background:#303b22;color:#e7e7aa;font-size:11px;font-weight:700}
+.research-card details{border-top:1px solid #34513a;margin-top:13px;padding-top:12px}
+.research-card summary{cursor:pointer;font-size:13px;font-weight:700;color:#b3f69d}
+.research-card ul{padding-left:19px;line-height:1.65;overflow-wrap:anywhere}
+.research-card a{color:#a4e9ba;text-decoration:underline;text-underline-offset:3px}
