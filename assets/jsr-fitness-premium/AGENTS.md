@@ -54,3 +54,13 @@ Esta instrução aplica-se à pasta assets/jsr-fitness-premium/ e seus descenden
 
 ## Entrega por lote
 Registrar: IDs contemplados, pares WebP realmente presentes, arquivos pendentes, diferenças visuais conhecidas, testes e impacto na integração.
+
+## Contrato de entrega para integração automática (21/11/2026)
+- **Entregar arquivos reais no repositório**, não apenas afirmar que estão no computador local ou no PDF. O app usa `exercise-assets.js`, com os caminhos determinísticos por ID, nome e grupo.
+- Produzir primeiro e publicar os 5 pares WebP locais já existentes, se autorizados e com qualidade aceitável. Registrar IDs, origem, licença, correspondência visual A/B e status. Não substituir arquivos já aprovados silenciosamente.
+- Para os 53 exercícios restantes, produzir pares individualmente, em lotes pequenos. **Nenhuma geração é realizada por este arquivo de instruções**: é necessário executar o agente em ambiente com gerador de imagens e permissão de upload.
+- Pasta obrigatória: `assets/jsr-fitness-premium/imagens/<grupo>/NNN_nome_normalizado_execucao.webp` e `..._anatomia.webp`. Grupos: 01_peito, 02_costas, 03_ombros, 04_bracos, 05_membros_inferiores, 06_abdomen_core. Normalizar slug removendo acentos e substituindo caracteres não alfanuméricos por sublinhado.
+- O aplicativo tenta carregar imagens publicadas e recua para a fotografia anterior ou cartão informativo se o arquivo estiver ausente; **não alterar `app.js`, `exercise-media.js` ou `exercise-assets.js` sem revisão**.
+- Executar `node scripts/audit-fitness-assets.mjs` e `npm test` após cada lote. A auditoria lista arquivos faltantes; não confundir ausência de imagem com falha de código.
+- Anexar ao PR ou issue relatório com arquivos enviados, pares completos, diferenças de pose, fontes de pesquisa e revisão humana pendente.
+- O material científico do `research/catalogo-58.json` permanece preliminar; pesquisar e conferir links antes de marcar qualquer estudo como validado.
