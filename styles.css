@@ -9,3 +9,5 @@
 .guide-item{width:100%;border:1px solid #304938;background:#17251c;color:#edf7ee;border-radius:14px;padding:14px;text-align:left;display:grid;gap:5px}.guide-item span{color:#a8baae;font-size:12px}.guide-item:focus-visible{outline:2px solid #9ae0ad}.wrap ol{padding-left:23px;line-height:1.6}
 
 .generator-groups{border:1px solid #486451;border-radius:12px;padding:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px}.generator-groups legend{color:#d3e5d8;font-size:13px;padding:0 6px}.generator-groups label{display:flex;align-items:center;gap:7px;font-size:13px}.generator-groups input{width:auto;accent-color:#9ae0ad}
+
+.gym-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}.gym-option{display:flex;align-items:center;gap:9px;border:1px solid #36513e;border-radius:12px;padding:12px;background:#1b2d22;font-size:13px}.gym-option input{width:auto;accent-color:#9ae0ad}.gym-option span{overflow-wrap:anywhere}@media(max-width:360px){.gym-options{grid-template-columns:1fr}}
