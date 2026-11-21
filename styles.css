@@ -48,3 +48,16 @@
 .media-placeholder{display:grid;justify-items:center;gap:8px;color:#c0d2c6;font-size:30px;padding:12px;text-align:center}
 .media-placeholder small{font-size:11px}
 @media(max-width:360px){.media-tile{height:145px}}
+
+/* Identificação visual durante a execução do treino */
+.workout-exercise-head{display:flex;align-items:center;gap:10px;margin:20px 0 10px;padding:10px;background:#1d382b;border:1px solid #365544;border-radius:14px}
+.workout-exercise-photo{flex:0 0 74px;width:74px;height:74px;border-radius:12px;background:#284b37;display:grid;place-items:center;overflow:hidden;font-size:28px}
+.workout-exercise-photo img{width:100%;height:100%;object-fit:cover}
+.workout-exercise-info{flex:1;min-width:0}
+.workout-exercise-info h3{font-size:16px;margin:0 0 5px;overflow-wrap:anywhere}
+.workout-exercise-info p{margin:0;overflow-wrap:anywhere}
+.workout-visual-toggle{font-size:11px!important;padding:8px!important;flex:0 0 auto;max-width:92px;white-space:normal}
+.workout-anatomy{padding:10px;margin:0 0 10px;background:#14291e;border-radius:12px;text-align:center}
+.workout-anatomy[hidden]{display:none}
+.workout-anatomy img{display:block;max-height:170px;max-width:100%;margin:auto}
+@media(max-width:360px){.workout-exercise-photo{flex-basis:60px;width:60px;height:60px}.workout-visual-toggle{max-width:75px}}
