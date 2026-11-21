@@ -11,6 +11,25 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(data));return true}c
 const uid=()=>globalThis.crypto?.randomUUID?.()||Date.now()+"-"+Math.random().toString(36).slice(2);
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $=s=>document.querySelector(s);
+// Falha de mídia: nunca exibir ícone quebrado. O fallback não depende de rede.
+document.addEventListener("error",event=>{
+  const img=event.target;
+  if(!(img instanceof HTMLImageElement))return;
+  const container=img.closest(".exercise-symbol,.studio-photo,.workout-exercise-photo,.media-tile,.trainer-preview-item,.scan-preview");
+  if(!container)return;
+  const card=img.closest(".guide-item,.picker-item,.trainer-preview-item,.studio-exercise,.workout-exercise-head,.media-pair");
+  const group=card?.querySelector(".studio-muscle-label,.studio-muscle-art strong,.muscle-tag,.guide-item-body span")?.textContent?.split(" · ")[0]?.trim()||"MOVIMENTO";
+  const fallback=document.createElement("span");
+  fallback.className="jsr-media-fallback";
+  const kicker=document.createElement("small");kicker.textContent="JSR FITNESS";
+  const label=document.createElement("strong");label.textContent=group;
+  fallback.append(kicker,label);
+  img.onerror=null;
+  img.replaceWith(fallback);
+  const next=fallback.nextElementSibling;
+  if(next?.hidden && (next.classList.contains("muscle-fallback")||next.classList.contains("media-placeholder")||next.classList.contains("muscle-info-panel")))next.remove();
+},true);
+
 const sheet=id=>data.sheets.find(s=>s.id===id);
 const current=()=>currentSheet(data.cycle,data.sheets);
 function setTab(t){tab=t;editing=null;pendingExercise=null;generatedExercises=null;render()}
