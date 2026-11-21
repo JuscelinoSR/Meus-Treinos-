@@ -33,3 +33,6 @@
 .picker-item small{grid-column:2;grid-row:2}
 .picker-item>span:last-child{grid-column:3;grid-row:1/3}
 @media(min-width:640px){.exercise-library-grid{grid-template-columns:1fr 1fr}}
+
+/* Descanso automático durante o treino */
+#rest-card{scroll-margin-top:18px}#rest-card.rest-running{border-color:#9ae0ad;box-shadow:0 0 0 1px #537f60}#rest-card .timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:clamp(36px,10vw,58px);text-align:center;padding:10px 0}#rest-status{text-align:center}
