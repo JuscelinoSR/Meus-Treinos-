@@ -99,3 +99,30 @@ input:focus,select:focus,textarea:focus{outline:2px solid #a1fa6c88;outline-offs
 .media-tile{border-radius:16px;background:#111b15}
 @media(max-width:380px){.workout-exercise-head{grid-template-columns:82px minmax(0,1fr)}.workout-exercise-photo{width:82px;height:104px}.workout-exercise-info h3{font-size:17px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* JSR Studio: painel de montagem profissional */
+.trainer-panel{background:linear-gradient(135deg,#1b3020,#111b15);border:1px solid #47684b;border-radius:22px;padding:16px;margin:12px 0 18px;box-shadow:0 12px 30px #0004}
+.trainer-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.trainer-summary>div{background:#0e1a12;border:1px solid #345039;border-radius:15px;display:flex;flex-direction:column;align-items:center;padding:13px 4px;gap:4px}
+.trainer-summary strong{font-size:27px;line-height:1;color:#a6f87d;font-variant-numeric:tabular-nums}
+.trainer-summary span{font-size:11px;color:#bdc9bd}
+.trainer-coverage h4{font-size:14px;margin:8px 0 12px}
+.coverage-line{display:grid;grid-template-columns:75px minmax(0,1fr) 22px;gap:10px;align-items:center;margin:9px 0;font-size:12px}
+.coverage-line span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.coverage-line b{color:#b7f59b;text-align:right}
+.coverage-track{height:8px;background:#26392a;border-radius:100px;overflow:hidden}
+.coverage-track i{display:block;height:100%;background:linear-gradient(90deg,#5dbb78,#b3fb78);border-radius:100px}
+.trainer-exercise-title{display:flex;align-items:center;gap:10px;min-width:0}
+.trainer-exercise-title h3{margin:0!important;font-size:15px}
+.trainer-exercise-visual .exercise-symbol{display:grid;place-items:center;width:56px;height:56px;flex-shrink:0;font-size:24px}
+.trainer-exercise-visual .exercise-symbol img{width:56px;height:56px;object-fit:cover}
+.exercise-form>.row{margin-bottom:14px}
+.exercise-form .danger{padding:8px 10px;font-size:12px}
+.trainer-preview-list{display:grid;gap:8px;margin:12px 0}
+.trainer-preview-item{display:flex;align-items:center;gap:12px;background:#122019;border:1px solid #314938;border-radius:15px;padding:10px}
+.trainer-preview-item .exercise-symbol{width:64px;height:64px;flex:0 0 64px;display:grid;place-items:center;font-size:25px}
+.trainer-preview-item .exercise-symbol img{width:64px;height:64px;object-fit:cover}
+.trainer-preview-item>div{min-width:0}
+.trainer-preview-item strong{display:block;font-size:14px;overflow-wrap:anywhere}
+.trainer-preview-item small{display:block;color:#a8bba9;margin-top:5px;font-size:11px}
+@media(max-width:360px){.coverage-line{grid-template-columns:65px minmax(0,1fr) 18px;gap:6px}.trainer-summary strong{font-size:23px}}
