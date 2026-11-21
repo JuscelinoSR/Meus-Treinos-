@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {currentSheet,advanceCycle,removeFromCycle,validBackup} from '../core.js';
+const sheets=[{id:'A',name:'Costas',exercises:[]},{id:'B',name:'Peito',exercises:[]},{id:'C',name:'Pernas',exercises:[]}];
+test('faltas e treino alternativo não avançam',()=>{const c={order:['A','B','C'],index:0};assert.deepEqual(advanceCycle(c,'B',true),c);assert.deepEqual(advanceCycle(c,'A',false),c)});
+test('conclusão prevista avança e retorna ao início',()=>{assert.equal(advanceCycle({order:['A','B','C'],index:0},'A',true).index,1);assert.equal(advanceCycle({order:['A','B','C'],index:2},'C',true).index,0)});
+test('próxima ficha acompanha índice',()=>{assert.equal(currentSheet({order:['A','B','C'],index:1},sheets).id,'B')});
+test('excluir ficha anterior preserva próxima pendente',()=>{assert.deepEqual(removeFromCycle({order:['A','B','C'],index:2},'A'),{order:['B','C'],index:1})});
+test('excluir ficha pendente escolhe próxima disponível',()=>{assert.deepEqual(removeFromCycle({order:['A','B','C'],index:1},'B'),{order:['A','C'],index:1})});
+test('backup inválido é rejeitado',()=>{assert.equal(validBackup({version:1,sheets:[],sessions:[],cycle:{order:[],index:0}}),true);assert.equal(validBackup({version:1,sheets:'x',sessions:[],cycle:{order:[],index:0}}),false)});
