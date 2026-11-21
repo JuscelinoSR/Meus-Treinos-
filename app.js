@@ -1,5 +1,4 @@
 import {currentSheet,advanceCycle,removeFromCycle,validBackup} from "./core.js";
-import {advanceCycle,removeFromCycle,validBackup} from "./core.js";
 const KEY="jsr-fitness-v1";
 const defaultData=()=>({version:1,sheets:[],sessions:[],cycle:{order:[],index:0},active:null});
 let data=load(),tab="home",editing=null,timerId=null,timerEnd=0;
