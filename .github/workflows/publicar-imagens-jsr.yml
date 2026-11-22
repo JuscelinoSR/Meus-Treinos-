@@ -1,0 +1,64 @@
+name: Publicar imagens WebP do pacote JSR Fitness
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'JSR_Fitness_Premium_Organizado_v02.zip'
+      - '.github/workflows/publicar-imagens-jsr.yml'
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Extrair apenas WebP oficiais com verificação
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          archive=Path('JSR_Fitness_Premium_Organizado_v02.zip')
+          if not archive.exists():
+              raise SystemExit('Pacote ZIP ausente')
+          dest=Path('assets/jsr-fitness-premium')
+          expected={
+            'imagens/01_peito/001_supino_reto',
+            'imagens/01_peito/002_supino_inclinado',
+            'imagens/02_costas/003_puxada_frontal',
+            'imagens/06_abdomen_core/010_prancha',
+            'imagens/01_peito/020_supino_reto_com_barra',
+          }
+          names={prefix+'_'+kind+'.webp' for prefix in expected for kind in ('execucao','anatomia')}
+          with zipfile.ZipFile(archive) as z:
+              for name in sorted(names):
+                  if name not in z.namelist():
+                      raise SystemExit('Imagem obrigatória ausente: '+name)
+                  raw=z.read(name)
+                  if len(raw)<20 or raw[:4]!=b'RIFF' or raw[8:12]!=b'WEBP':
+                      raise SystemExit('Arquivo não é WebP válido: '+name)
+                  target=dest/name
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  target.write_bytes(raw)
+                  print(name,len(raw))
+          print('10 imagens WebP publicáveis')
+          PY
+      - name: Testes existentes
+        run: |
+          npm test
+          node scripts/audit-fitness-assets.mjs
+      - name: Commit das imagens no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/jsr-fitness-premium/imagens
+          if git diff --cached --quiet; then
+            echo "Imagens já presentes, nada a publicar"
+          else
+            git commit -m "assets: publicar 10 WebP originais do JSR Fitness Premium"
+            git push
+          fi
